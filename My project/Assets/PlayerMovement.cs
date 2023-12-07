@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = new Vector3(xMove, rb.velocity.y, zMove) * speed; // Creates velocity in direction of value equal to keypress (WASD). rb.velocity.y deals with falling + jumping by setting velocity to y. 
 
+        
 
     }
 }
