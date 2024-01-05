@@ -112,6 +112,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
@@ -347,6 +348,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEditorBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
@@ -373,8 +375,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/character.cs"
-"Assets/PlayerMovement.cs"
+"Assets/InputSystem/StarterAssetsInputs.cs"
+"Assets/Scripts/BasicRigidBodyPush.cs"
+"Assets/Scripts/character.cs"
+"Assets/Scripts/InteractionSystem/Chest.cs"
+"Assets/Scripts/InteractionSystem/Door.cs"
+"Assets/Scripts/InteractionSystem/IInteractable.cs"
+"Assets/Scripts/InteractionSystem/InteractionPromptUI.cs"
+"Assets/Scripts/InteractionSystem/Interactor.cs"
+"Assets/Scripts/InteractionSystem/Inventory.cs"
+"Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 
 /deterministic
