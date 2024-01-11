@@ -8,7 +8,7 @@ public class InteractionPromptUI : MonoBehaviour
 {
     private Camera _mainCam;
     [SerializeField] private GameObject _uiPanel;
-    [SerializeField] private TextMeshProUGUI _promptText;
+    [SerializeField] private TextMeshPro _promptText;
 
     private void Start()
     {
