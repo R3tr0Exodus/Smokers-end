@@ -375,15 +375,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/InputSystem/StarterAssetsInputs.cs"
 "Assets/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/character.cs"
-"Assets/Scripts/InteractionSystem/Chest.cs"
-"Assets/Scripts/InteractionSystem/Door.cs"
 "Assets/Scripts/InteractionSystem/IInteractable.cs"
 "Assets/Scripts/InteractionSystem/InteractionPromptUI.cs"
 "Assets/Scripts/InteractionSystem/Interactor.cs"
 "Assets/Scripts/InteractionSystem/Inventory.cs"
+"Assets/Scripts/InteractionSystem/Objects/Chest.cs"
+"Assets/Scripts/InteractionSystem/Objects/Door.cs"
+"Assets/Scripts/InteractionSystem/Objects/Locker.cs"
 "Assets/Scripts/PlayerMovement.cs"
 -langversion:9.0
 
