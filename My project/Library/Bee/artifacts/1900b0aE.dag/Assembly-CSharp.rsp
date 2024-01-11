@@ -377,7 +377,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/character.cs"
-"Assets/Scripts/InteractionSystem/dialogue.cs"
+"Assets/Scripts/dialogue.cs"
 "Assets/Scripts/InteractionSystem/IInteractable.cs"
 "Assets/Scripts/InteractionSystem/InteractionPromptUI.cs"
 "Assets/Scripts/InteractionSystem/Interactor.cs"
