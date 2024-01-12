@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638405966034343486
-    m_Hash: 145193907
+      ticks: 638405641858111947
+    m_Hash: 524433263
   m_LockFileStatus:
     m_FilePath: C:/Users/mfh11/Documents/GitHub/Smokers-end/My project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638405966034343486
-    m_Hash: 1012022064
+      ticks: 638405641858204950
+    m_Hash: 939106210
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

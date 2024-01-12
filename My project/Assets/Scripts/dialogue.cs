@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
 public class dialogue : MonoBehaviour
 {
-    public TextMeshPro textcomponent;
+    public TextMeshProUGUI textcomponent;
+    [SerializeField] GameObject panel;
     public string[] lines;
     public float textspeed;
 
@@ -12,8 +14,9 @@ public class dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         textcomponent.text = string.Empty;
-        StartDialogue();
+        panel.SetActive(false); //Hides dialouge UI
     }
 
     // Update is called once per frame
@@ -32,12 +35,16 @@ public class dialogue : MonoBehaviour
             }
         }
     }
+    
 
-    void StartDialogue()
-    {
-        index = 0;
-        StartCoroutine(TypeLine());
-    }
+        public void StartDialogue()
+        {
+            panel.SetActive(true); //Shows Gameobj
+            index = 0;
+            StartCoroutine(TypeLine());
+        }
+    
+    
 
     IEnumerator TypeLine()
     {
@@ -58,7 +65,7 @@ public class dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            panel.SetActive(false);
         }
     }
 }
